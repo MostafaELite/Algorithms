@@ -14,8 +14,11 @@ namespace Run
             //foreach (var number in sortedArray)
             //    Console.WriteLine(number);
 
-            var transofrmString = new TransformStringIntoAnother();
-            Console.WriteLine(transofrmString.Transform("pincel", "pinwww"));
+            //var transofrmString = new TransformStringIntoAnother();
+            //Console.WriteLine(transofrmString.Transform("pincel", "pinwww"));
+
+            var printThePattern = new PrintThePattern();
+            Console.WriteLine(printThePattern.PrintPattern(3));
             Console.Read();
 
         }
